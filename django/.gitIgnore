@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django secret key or environment files
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VSCode / PyCharm / IDE settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# SQLite DB or local test DBs
+*.sqlite3
+db.sqlite3
+
+# Static file cache
+staticfiles/
+static/
+
+# Media files (uploads)
+media/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy, Coverage, and other testing tools
+.mypy_cache/
+.coverage
+htmlcov/
+*.cover
+.cache
+
+# Daphne Unix socket if used
+*.sock
+
+# macOS and Linux
+.DS_Store
+Thumbs.db
